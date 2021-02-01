@@ -1,0 +1,16 @@
+.favorita {
+  background-color: rgb(95, 184, 154);
+  color: azure;
+  padding: 10px;
+  animation: propia 1s;
+}
+
+@keyframes propia {
+  0% {
+    bottom: -10px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
